@@ -42,10 +42,10 @@ export class PuppeteerExtraPluginAmazonCaptcha extends PuppeteerExtraPlugin {
         page.waitForNavigation({
             timeout: this.opts.maxWait
         });
-        await page.setRequestInterception(true); 
-        page.on("request", (req: HTTPRequest) => {
-            req.continue();
-        })
+        // await page.setRequestInterception(true); 
+        // page.on("request", (req: HTTPRequest) => {
+        //     req.continue();
+        // })
         page.on("response", async (res: HTTPResponse) => {
             const req: HTTPRequest  = res.request();
             const url: string       = req.url();
