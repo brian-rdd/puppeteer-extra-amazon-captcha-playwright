@@ -1,5 +1,5 @@
 {
-    "name": "playwright-puppeteer-extra-amazon-captcha",
+    "name": "puppeteer-extra-amazon-captcha-playwright",
     "version": "1.0.3",
     "description": "A puppeteer-extra plugin to solve Amazon captchas using Tessaract.JS adapted for playwright.",
     "main": "dist/index.js",
@@ -15,7 +15,7 @@
         "captcha",
         "amazon"
     ],
-    "author": "Mihnea Octavian Manolache <mihnea.dev@gmail.com> (https://github.com/mihneamanolache/)",
+    "author": "Result Driven Development",
     "license": "MIT",
     "dependencies": {
         "@types/puppeteer": "^7.0.4",
@@ -35,10 +35,10 @@
     "types": "./dist/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/brian-rdd/puppeteer-extra-amazon-captcha.git"
+        "url": "git+https://github.com/brian-rdd/puppeteer-extra-amazon-captcha-playwright.git"
     },
     "bugs": {
-        "url": "https://github.com/brian-rdd/puppeteer-extra-amazon-captcha/issues"
+        "url": "https://github.com/brian-rdd/puppeteer-extra-amazon-captcha-playwright/issues"
     },
-    "homepage": "https://github.com/brian-rdd/puppeteer-extra-amazon-captcha#readme"
+    "homepage": "https://github.com/brian-rdd/puppeteer-extra-amazon-captcha-playwright#readme"
 }
